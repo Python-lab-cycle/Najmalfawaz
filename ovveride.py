@@ -31,11 +31,11 @@ class python(book):
             print("pages",self.page)
             print("price",self.price)
 
-n=input("enter publisher")
-b=input("enter book")
-t=input("title")
-p=int(input("enter pages"))
-pr=int(input("enter price"))
+n=input("enter publisher: ")
+b=input("enter book: ")
+t=input("title: ")
+p=int(input("enter pages: "))
+pr=int(input("enter price: "))
 
 
 obj=python(n,b,t,p,pr)

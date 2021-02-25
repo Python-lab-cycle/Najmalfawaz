@@ -1,0 +1,6 @@
+f1=open("kunnamkulam_murshid.txt","w")
+print("name of the file:",f1.name)
+print("closed or nob:",f1.closed)
+print("opening mode:",f1.mode)
+f1.close()
+print("file closed")
